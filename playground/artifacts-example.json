@@ -1,0 +1,1931 @@
+[
+    {
+        "id": 1,
+        "uri": "artifacts/1",
+        "xref": "SRS #1",
+        "tracker": {
+            "id": 17,
+            "uri": "trackers/17",
+            "label": "System Requirements Specification",
+            "color_name": "clockwork-orange",
+            "project": {
+                "id": 102,
+                "uri": "projects/102",
+                "label": "OT.1559"
+            }
+        },
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "OT.1559"
+        },
+        "submitted_by": 105,
+        "submitted_by_user": {
+            "id": 105,
+            "uri": "users/105",
+            "user_url": "/users/hsilvadias",
+            "real_name": "Hugo Silva Dias",
+            "display_name": "Hugo Silva Dias",
+            "username": "hsilvadias",
+            "ldap_id": "10490",
+            "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+            "is_anonymous": false
+        },
+        "submitted_on": "2018-03-08T18:03:01+01:00",
+        "html_url": "/plugins/tracker/?aid=1",
+        "changesets_uri": "artifacts/1/changesets",
+        "values": [
+            {
+                "field_id": 538,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 1
+            },
+            {
+	    "field_id": 539,
+                "type": "sb",
+                "label": "Product",
+                "values": [
+                    {
+                        "id": "445",
+                        "label": "ALM",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    445
+                ]
+            },
+            {
+                "field_id": 540,
+                "type": "sb",
+                "label": "Version",
+                "values": [
+                    {
+                        "id": "386",
+                        "label": "1.0",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    386
+		]
+            },
+            {
+                "field_id": 541,
+                "type": "sb",
+                "label": "Status",
+                "values": [
+                    {
+                        "id": "392",
+                        "label": "New",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    392
+                ]
+            },
+            {
+                "field_id": 542,
+                "type": "sb",
+                "label": "Type",
+                "values": [
+                    {
+                        "id": "394",
+                        "label": "Specification",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    394
+                ]
+            },
+            {
+                "field_id": 543,
+                "type": "sb",
+                "label": "Nature",
+                "values": [
+                    {
+                        "id": "403",
+                        "label": "System",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    403
+                ]
+            },
+            {
+                "field_id": 545,
+                "type": "sb",
+                "label": "Priority",
+                "values": [
+                    {
+                        "id": "413",
+                        "label": "High",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    413
+                ]
+            },
+            {
+                "field_id": 546,
+                "type": "string",
+                "label": "Summary",
+                "value": "Notificações"
+            },
+            {
+                "field_id": 547,
+                "type": "art_link",
+                "label": "Satisfy Requirements",
+                "links": [
+                    {
+                        "id": 2,
+                        "uri": "artifacts/2",
+                        "tracker": {
+                            "id": 18,
+                            "uri": "trackers/18",
+                            "label": "Tasks",
+                            "project": {
+                                "id": 102,
+                                "uri": "projects/102",
+                                "label": "OT.1559"
+                            }
+                        }
+                    }
+                ],
+                "reverse_links": []
+            },
+            {
+                "field_id": 552,
+                "type": "subby",
+                "label": "Author",
+                "value": {
+                    "email": "hugo.silva.dias@siscog.pt",
+                    "status": "A",
+                    "id": 105,
+                    "uri": "users/105",
+                    "user_url": "/users/hsilvadias",
+                    "real_name": "Hugo Silva Dias",
+                    "display_name": "Hugo Silva Dias",
+                    "username": "hsilvadias",
+                    "ldap_id": "10490",
+                    "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                    "is_anonymous": false
+                }
+            },
+            {
+                "field_id": 553,
+                "type": "subon",
+                "label": "Creation date",
+                "value": "2018-03-08T18:03:01+01:00"
+            },
+            {
+                "field_id": 554,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2018-04-17T17:39:04+02:00"
+            },
+            {
+                "field_id": 555,
+                "type": "sb",
+                "label": "Assigned to",
+                "values": [
+                    {
+                        "email": null,
+                        "status": null,
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": null,
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                        "is_anonymous": true
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 556,
+                "type": "text",
+                "label": "Source",
+                "value": "",
+                "format": "text"
+            },
+            {
+                "field_id": 561,
+                "type": "file",
+                "label": "Attachments",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 562,
+                "type": "cross",
+                "label": "Cross references",
+                "value": [
+                    {
+                        "ref": "TSK #2",
+                        "url": "https://tuleap.siscog/goto?key=TSK&val=2&group_id=102",
+                        "direction": "out"
+                    }
+                ]
+            },
+            {
+                "field_id": 563,
+                "label": "Permissions on artifact",
+                "granted_groups": [],
+                "granted_groups_details": []
+            },
+            {
+                "field_id": 557,
+                "type": "text",
+                "label": "Description",
+                "value": "A ferramenta deverá gerar notificações sempre que exista uma alteração de estado num determinado processo e enviá-las para todas as pessoas relevantes para o mesmo.",
+                "format": "text"
+            },
+            {
+                "field_id": 558,
+                "type": "text",
+                "label": "Proposed solution",
+                "value": "",
+                "format": "text"
+            }
+        ],
+        "values_by_field": null,
+        "last_modified_date": "2018-04-17T17:39:04+02:00",
+        "status": "New",
+        "title": "Notificações",
+        "assignees": []
+    },
+    {
+        "id": 4,
+        "uri": "artifacts/4",
+        "xref": "SRS #4",
+        "tracker": {
+            "id": 17,
+            "uri": "trackers/17",
+            "label": "System Requirements Specification",
+            "color_name": "clockwork-orange",
+            "project": {
+                "id": 102,
+                "uri": "projects/102",
+                "label": "OT.1559"
+            }
+        },
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "OT.1559"
+        },
+        "submitted_by": 105,
+        "submitted_by_user": {
+            "id": 105,
+            "uri": "users/105",
+            "user_url": "/users/hsilvadias",
+            "real_name": "Hugo Silva Dias",
+            "display_name": "Hugo Silva Dias",
+            "username": "hsilvadias",
+            "ldap_id": "10490",
+            "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+            "is_anonymous": false
+        },
+        "submitted_on": "2018-03-14T14:08:33+01:00",
+        "html_url": "/plugins/tracker/?aid=4",
+        "changesets_uri": "artifacts/4/changesets",
+        "values": [
+            {
+                "field_id": 538,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 4
+            },
+            {
+                "field_id": 539,
+                "type": "sb",
+                "label": "Product",
+                "values": [
+                    {
+                        "id": "445",
+                        "label": "ALM",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    445
+                ]
+            },
+            {
+                "field_id": 540,
+                "type": "sb",
+                "label": "Version",
+                "values": [
+                    {
+                        "id": "386",
+                        "label": "1.0",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    386
+                ]
+            },
+            {
+                "field_id": 541,
+                "type": "sb",
+                "label": "Status",
+                "values": [
+                    {
+                        "id": "392",
+                        "label": "New",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    392
+                ]
+            },
+            {
+                "field_id": 542,
+                "type": "sb",
+                "label": "Type",
+                "values": [
+                    {
+                        "id": "394",
+                        "label": "Specification",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    394
+                ]
+            },
+            {
+                "field_id": 543,
+                "type": "sb",
+                "label": "Nature",
+                "values": [
+                    {
+                        "id": "403",
+                        "label": "System",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    403
+                ]
+            },
+            {
+                "field_id": 545,
+                "type": "sb",
+                "label": "Priority",
+                "values": [
+                    {
+                        "id": "414",
+                        "label": "Medium",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    414
+                ]
+            },
+            {
+                "field_id": 546,
+                "type": "string",
+                "label": "Summary",
+                "value": "Engenharia de requisitos"
+            },
+            {
+                "field_id": 547,
+                "type": "art_link",
+                "label": "Satisfy Requirements",
+                "links": [],
+                "reverse_links": []
+            },
+            {
+                "field_id": 552,
+                "type": "subby",
+                "label": "Author",
+                "value": {
+                    "email": "hugo.silva.dias@siscog.pt",
+                    "status": "A",
+                    "id": 105,
+                    "uri": "users/105",
+                    "user_url": "/users/hsilvadias",
+                    "real_name": "Hugo Silva Dias",
+                    "display_name": "Hugo Silva Dias",
+                    "username": "hsilvadias",
+                    "ldap_id": "10490",
+                    "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                    "is_anonymous": false
+                }
+            },
+            {
+                "field_id": 553,
+                "type": "subon",
+                "label": "Creation date",
+                "value": "2018-03-14T14:08:33+01:00"
+            },
+            {
+                "field_id": 554,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2018-03-14T14:08:33+01:00"
+            },
+            {
+                "field_id": 555,
+                "type": "sb",
+                "label": "Assigned to",
+                "values": [
+                    {
+                        "email": null,
+                        "status": null,
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": null,
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                        "is_anonymous": true
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 556,
+                "type": "text",
+                "label": "Source",
+                "value": "",
+                "format": "text"
+            },
+            {
+                "field_id": 561,
+                "type": "file",
+                "label": "Attachments",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 562,
+                "type": "cross",
+                "label": "Cross references",
+                "value": []
+            },
+            {
+                "field_id": 557,
+                "type": "text",
+                "label": "Description",
+                "value": "A ferramenta deverá permitir a centralização e gestão de requisitos de software. Devendo ser dotado de mecanismos de indexação para agilizar a respectiva pesquisa.",
+                "format": "text"
+            },
+            {
+                "field_id": 558,
+                "type": "text",
+                "label": "Proposed solution",
+                "value": "",
+                "format": "text"
+            }
+        ],
+        "values_by_field": null,
+        "last_modified_date": "2018-03-14T14:08:33+01:00",
+        "status": "New",
+        "title": "Engenharia de requisitos",
+        "assignees": []
+    },
+    {
+        "id": 5,
+        "uri": "artifacts/5",
+        "xref": "SRS #5",
+        "tracker": {
+            "id": 17,
+            "uri": "trackers/17",
+            "label": "System Requirements Specification",
+            "color_name": "clockwork-orange",
+            "project": {
+                "id": 102,
+                "uri": "projects/102",
+                "label": "OT.1559"
+            }
+        },
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "OT.1559"
+        },
+        "submitted_by": 105,
+        "submitted_by_user": {
+            "id": 105,
+            "uri": "users/105",
+            "user_url": "/users/hsilvadias",
+            "real_name": "Hugo Silva Dias",
+            "display_name": "Hugo Silva Dias",
+            "username": "hsilvadias",
+            "ldap_id": "10490",
+            "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+            "is_anonymous": false
+        },
+        "submitted_on": "2018-03-14T14:09:45+01:00",
+        "html_url": "/plugins/tracker/?aid=5",
+        "changesets_uri": "artifacts/5/changesets",
+        "values": [
+            {
+                "field_id": 538,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 5
+            },
+            {
+                "field_id": 539,
+                "type": "sb",
+                "label": "Product",
+                "values": [
+                    {
+                        "id": "445",
+                        "label": "ALM",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    445
+                ]
+            },
+            {
+                "field_id": 540,
+                "type": "sb",
+                "label": "Version",
+                "values": [
+                    {
+                        "id": "386",
+                        "label": "1.0",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    386
+                ]
+            },
+            {
+                "field_id": 541,
+                "type": "sb",
+                "label": "Status",
+                "values": [
+                    {
+                        "id": "392",
+                        "label": "New",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    392
+                ]
+            },
+            {
+                "field_id": 542,
+                "type": "sb",
+                "label": "Type",
+                "values": [
+                    {
+                        "id": "394",
+                        "label": "Specification",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    394
+                ]
+            },
+            {
+                "field_id": 543,
+                "type": "sb",
+                "label": "Nature",
+                "values": [
+                    {
+                        "id": "403",
+                        "label": "System",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    403
+                ]
+            },
+            {
+                "field_id": 545,
+                "type": "sb",
+                "label": "Priority",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 546,
+                "type": "string",
+                "label": "Summary",
+                "value": "Gestão documental"
+            },
+            {
+                "field_id": 547,
+                "type": "art_link",
+                "label": "Satisfy Requirements",
+                "links": [],
+                "reverse_links": []
+            },
+            {
+                "field_id": 552,
+                "type": "subby",
+                "label": "Author",
+                "value": {
+                    "email": "hugo.silva.dias@siscog.pt",
+                    "status": "A",
+                    "id": 105,
+                    "uri": "users/105",
+                    "user_url": "/users/hsilvadias",
+                    "real_name": "Hugo Silva Dias",
+                    "display_name": "Hugo Silva Dias",
+                    "username": "hsilvadias",
+                    "ldap_id": "10490",
+                    "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                    "is_anonymous": false
+                }
+            },
+            {
+                "field_id": 553,
+                "type": "subon",
+                "label": "Creation date",
+                "value": "2018-03-14T14:09:45+01:00"
+            },
+            {
+                "field_id": 554,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2018-04-17T17:41:50+02:00"
+            },
+            {
+                "field_id": 555,
+                "type": "sb",
+                "label": "Assigned to",
+                "values": [
+                    {
+                        "email": null,
+                        "status": null,
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": null,
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                        "is_anonymous": true
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 556,
+                "type": "text",
+                "label": "Source",
+                "value": "",
+                "format": "text"
+            },
+            {
+                "field_id": 561,
+                "type": "file",
+                "label": "Attachments",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 562,
+                "type": "cross",
+                "label": "Cross references",
+                "value": [
+                    {
+                        "ref": "doc #13",
+                        "url": "https://tuleap.siscog/goto?key=doc&val=13&group_id=102",
+                        "direction": "out"
+                    }
+                ]
+            },
+            {
+                "field_id": 563,
+                "label": "Permissions on artifact",
+                "granted_groups": [],
+                "granted_groups_details": []
+            },
+            {
+                "field_id": 557,
+                "type": "text",
+                "label": "Description",
+                "value": "A ferramenta deverá ter capacidade para armazenar todo o tipo de documentação associada ao desenvolvimento de software. Para além disso deverá ter mecanismos de indexação para agilizar a respectiva pesquisa.\r\n\r\nVer doc #13.\r\n",
+                "format": "text"
+            },
+            {
+                "field_id": 558,
+                "type": "text",
+                "label": "Proposed solution",
+                "value": "",
+                "format": "text"
+            }
+        ],
+        "values_by_field": null,
+        "last_modified_date": "2018-04-17T17:41:50+02:00",
+        "status": "New",
+        "title": "Gestão documental",
+        "assignees": []
+    },
+    {
+        "id": 6,
+        "uri": "artifacts/6",
+        "xref": "SRS #6",
+        "tracker": {
+            "id": 17,
+            "uri": "trackers/17",
+            "label": "System Requirements Specification",
+            "color_name": "clockwork-orange",
+            "project": {
+                "id": 102,
+                "uri": "projects/102",
+                "label": "OT.1559"
+            }
+        },
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "OT.1559"
+        },
+        "submitted_by": 105,
+        "submitted_by_user": {
+            "id": 105,
+            "uri": "users/105",
+            "user_url": "/users/hsilvadias",
+            "real_name": "Hugo Silva Dias",
+            "display_name": "Hugo Silva Dias",
+            "username": "hsilvadias",
+            "ldap_id": "10490",
+            "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+            "is_anonymous": false
+        },
+        "submitted_on": "2018-03-14T14:11:20+01:00",
+        "html_url": "/plugins/tracker/?aid=6",
+        "changesets_uri": "artifacts/6/changesets",
+        "values": [
+            {
+                "field_id": 538,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 6
+            },
+            {
+                "field_id": 539,
+                "type": "sb",
+                "label": "Product",
+                "values": [
+                    {
+                        "id": "445",
+                        "label": "ALM",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    445
+                ]
+            },
+            {
+                "field_id": 540,
+                "type": "sb",
+                "label": "Version",
+                "values": [
+                    {
+                        "id": "386",
+                        "label": "1.0",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    386
+                ]
+            },
+            {
+                "field_id": 541,
+                "type": "sb",
+                "label": "Status",
+                "values": [
+                    {
+                        "id": "392",
+                        "label": "New",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    392
+                ]
+            },
+            {
+                "field_id": 542,
+                "type": "sb",
+                "label": "Type",
+                "values": [
+                    {
+                        "id": "394",
+                        "label": "Specification",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    394
+                ]
+            },
+            {
+                "field_id": 543,
+                "type": "sb",
+                "label": "Nature",
+                "values": [
+                    {
+                        "id": "403",
+                        "label": "System",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    403
+                ]
+            },
+            {
+                "field_id": 545,
+                "type": "sb",
+                "label": "Priority",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 546,
+                "type": "string",
+                "label": "Summary",
+                "value": "Relatórios e estatísticas"
+            },
+            {
+                "field_id": 547,
+                "type": "art_link",
+                "label": "Satisfy Requirements",
+                "links": [],
+                "reverse_links": []
+            },
+            {
+                "field_id": 552,
+                "type": "subby",
+                "label": "Author",
+                "value": {
+                    "email": "hugo.silva.dias@siscog.pt",
+                    "status": "A",
+                    "id": 105,
+                    "uri": "users/105",
+                    "user_url": "/users/hsilvadias",
+                    "real_name": "Hugo Silva Dias",
+                    "display_name": "Hugo Silva Dias",
+                    "username": "hsilvadias",
+                    "ldap_id": "10490",
+                    "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                    "is_anonymous": false
+                }
+            },
+            {
+                "field_id": 553,
+                "type": "subon",
+                "label": "Creation date",
+                "value": "2018-03-14T14:11:20+01:00"
+            },
+            {
+                "field_id": 554,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2018-04-10T12:03:26+02:00"
+            },
+            {
+                "field_id": 555,
+                "type": "sb",
+                "label": "Assigned to",
+                "values": [
+                    {
+                        "email": null,
+                        "status": null,
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": null,
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                        "is_anonymous": true
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 556,
+                "type": "text",
+                "label": "Source",
+                "value": "",
+                "format": "text"
+            },
+            {
+                "field_id": 561,
+                "type": "file",
+                "label": "Attachments",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 562,
+                "type": "cross",
+                "label": "Cross references",
+                "value": []
+            },
+            {
+                "field_id": 563,
+                "label": "Permissions on artifact",
+                "granted_groups": [],
+                "granted_groups_details": []
+            },
+            {
+                "field_id": 557,
+                "type": "text",
+                "label": "Description",
+                "value": "A ferramenta deverá permitir a configuração e visualização de KPIs, bem como a respectiva importação para outras ferramentas externas (p. ex. Microsoft Excel).",
+                "format": "text"
+            },
+            {
+                "field_id": 558,
+                "type": "text",
+                "label": "Proposed solution",
+                "value": "",
+                "format": "text"
+            }
+        ],
+        "values_by_field": null,
+        "last_modified_date": "2018-04-10T12:03:26+02:00",
+        "status": "New",
+        "title": "Relatórios e estatísticas",
+        "assignees": []
+    },
+    {
+        "id": 19,
+        "uri": "artifacts/19",
+        "xref": "SRS #19",
+        "tracker": {
+            "id": 17,
+            "uri": "trackers/17",
+            "label": "System Requirements Specification",
+            "color_name": "clockwork-orange",
+            "project": {
+                "id": 102,
+                "uri": "projects/102",
+                "label": "OT.1559"
+            }
+        },
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "OT.1559"
+        },
+        "submitted_by": 105,
+        "submitted_by_user": {
+            "id": 105,
+            "uri": "users/105",
+            "user_url": "/users/hsilvadias",
+            "real_name": "Hugo Silva Dias",
+            "display_name": "Hugo Silva Dias",
+            "username": "hsilvadias",
+            "ldap_id": "10490",
+            "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+            "is_anonymous": false
+        },
+        "submitted_on": "2018-04-10T12:05:49+02:00",
+        "html_url": "/plugins/tracker/?aid=19",
+        "changesets_uri": "artifacts/19/changesets",
+        "values": [
+            {
+                "field_id": 538,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 19
+            },
+            {
+                "field_id": 539,
+                "type": "sb",
+                "label": "Product",
+                "values": [
+                    {
+                        "id": "445",
+                        "label": "ALM",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    445
+                ]
+            },
+            {
+                "field_id": 540,
+                "type": "sb",
+                "label": "Version",
+                "values": [
+                    {
+                        "id": "386",
+                        "label": "1.0",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    386
+                ]
+            },
+            {
+                "field_id": 541,
+                "type": "sb",
+                "label": "Status",
+                "values": [
+                    {
+                        "id": "392",
+                        "label": "New",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    392
+                ]
+            },
+            {
+                "field_id": 542,
+                "type": "sb",
+                "label": "Type",
+                "values": [
+                    {
+                        "id": "394",
+                        "label": "Specification",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    394
+                ]
+            },
+            {
+                "field_id": 543,
+                "type": "sb",
+                "label": "Nature",
+                "values": [
+                    {
+                        "id": "403",
+                        "label": "System",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    403
+                ]
+            },
+            {
+                "field_id": 545,
+                "type": "sb",
+                "label": "Priority",
+                "values": [
+                    {
+                        "id": "415",
+                        "label": "Low",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    415
+                ]
+            },
+            {
+                "field_id": 546,
+                "type": "string",
+                "label": "Summary",
+                "value": "Versionamento"
+            },
+            {
+                "field_id": 547,
+                "type": "art_link",
+                "label": "Satisfy Requirements",
+                "links": [],
+                "reverse_links": []
+            },
+            {
+                "field_id": 552,
+                "type": "subby",
+                "label": "Author",
+                "value": {
+                    "email": "hugo.silva.dias@siscog.pt",
+                    "status": "A",
+                    "id": 105,
+                    "uri": "users/105",
+                    "user_url": "/users/hsilvadias",
+                    "real_name": "Hugo Silva Dias",
+                    "display_name": "Hugo Silva Dias",
+                    "username": "hsilvadias",
+                    "ldap_id": "10490",
+                    "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                    "is_anonymous": false
+                }
+            },
+            {
+                "field_id": 553,
+                "type": "subon",
+                "label": "Creation date",
+                "value": "2018-04-10T12:05:49+02:00"
+            },
+            {
+                "field_id": 554,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2018-04-10T12:09:16+02:00"
+            },
+            {
+                "field_id": 555,
+                "type": "sb",
+                "label": "Assigned to",
+                "values": [
+                    {
+                        "email": null,
+                        "status": null,
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": null,
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                        "is_anonymous": true
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 556,
+                "type": "text",
+                "label": "Source",
+                "value": "",
+                "format": "text"
+            },
+            {
+                "field_id": 561,
+                "type": "file",
+                "label": "Attachments",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 562,
+                "type": "cross",
+                "label": "Cross references",
+                "value": []
+            },
+            {
+                "field_id": 563,
+                "label": "Permissions on artifact",
+                "granted_groups": [],
+                "granted_groups_details": []
+            },
+            {
+                "field_id": 557,
+                "type": "text",
+                "label": "Description",
+                "value": "A ferramenta deve pemitir comparar quaisquer duas versões de uma entidade. Por exemplo, listar as diferenças entre os requisitos de 2 versões.\r\n",
+                "format": "text"
+            },
+            {
+                "field_id": 558,
+                "type": "text",
+                "label": "Proposed solution",
+                "value": "",
+                "format": "text"
+            }
+        ],
+        "values_by_field": null,
+        "last_modified_date": "2018-04-10T12:09:16+02:00",
+        "status": "New",
+        "title": "Versionamento",
+        "assignees": []
+    },
+    {
+        "id": 42,
+        "uri": "artifacts/42",
+        "xref": "SRS #42",
+        "tracker": {
+            "id": 17,
+            "uri": "trackers/17",
+            "label": "System Requirements Specification",
+            "color_name": "clockwork-orange",
+            "project": {
+                "id": 102,
+                "uri": "projects/102",
+                "label": "OT.1559"
+            }
+        },
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "OT.1559"
+        },
+        "submitted_by": 107,
+        "submitted_by_user": {
+            "id": 107,
+            "uri": "users/107",
+            "user_url": "/users/stanzani",
+            "real_name": "Vera Stanzani",
+            "display_name": "Vera Stanzani",
+            "username": "stanzani",
+            "ldap_id": "10072",
+            "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+            "is_anonymous": false
+        },
+        "submitted_on": "2018-04-20T18:54:37+02:00",
+        "html_url": "/plugins/tracker/?aid=42",
+        "changesets_uri": "artifacts/42/changesets",
+        "values": [
+            {
+                "field_id": 538,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 42
+            },
+            {
+                "field_id": 539,
+                "type": "sb",
+                "label": "Product",
+                "values": [
+                    {
+                        "id": "445",
+                        "label": "ALM",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    445
+                ]
+            },
+            {
+                "field_id": 540,
+                "type": "sb",
+                "label": "Version",
+                "values": [
+                    {
+                        "id": "386",
+                        "label": "1.0",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    386
+                ]
+            },
+            {
+                "field_id": 541,
+                "type": "sb",
+                "label": "Status",
+                "values": [
+                    {
+                        "id": "392",
+                        "label": "New",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    392
+                ]
+            },
+            {
+                "field_id": 542,
+                "type": "sb",
+                "label": "Type",
+                "values": [
+                    {
+                        "id": "394",
+                        "label": "Specification",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    394
+                ]
+            },
+            {
+                "field_id": 543,
+                "type": "sb",
+                "label": "Nature",
+                "values": [
+                    {
+                        "id": "401",
+                        "label": "Functionnal",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    401
+                ]
+            },
+            {
+                "field_id": 545,
+                "type": "sb",
+                "label": "Priority",
+                "values": [
+                    {
+                        "id": "413",
+                        "label": "High",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    413
+                ]
+            },
+            {
+                "field_id": 546,
+                "type": "string",
+                "label": "Summary",
+                "value": "Processo de testes"
+            },
+            {
+                "field_id": 547,
+                "type": "art_link",
+                "label": "Satisfy Requirements",
+                "links": [],
+                "reverse_links": []
+            },
+            {
+                "field_id": 552,
+                "type": "subby",
+                "label": "Author",
+                "value": {
+                    "email": "stanzani@siscog.pt",
+                    "status": "A",
+                    "id": 107,
+                    "uri": "users/107",
+                    "user_url": "/users/stanzani",
+                    "real_name": "Vera Stanzani",
+                    "display_name": "Vera Stanzani",
+                    "username": "stanzani",
+                    "ldap_id": "10072",
+                    "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                    "is_anonymous": false
+                }
+            },
+            {
+                "field_id": 553,
+                "type": "subon",
+                "label": "Creation date",
+                "value": "2018-04-20T18:54:37+02:00"
+            },
+            {
+                "field_id": 554,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2018-04-20T18:54:37+02:00"
+            },
+            {
+                "field_id": 555,
+                "type": "sb",
+                "label": "Assigned to",
+                "values": [
+                    {
+                        "email": null,
+                        "status": null,
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": null,
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                        "is_anonymous": true
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 556,
+                "type": "text",
+                "label": "Source",
+                "value": "",
+                "format": "text"
+            },
+            {
+                "field_id": 561,
+                "type": "file",
+                "label": "Attachments",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 562,
+                "type": "cross",
+                "label": "Cross references",
+                "value": []
+            },
+            {
+                "field_id": 557,
+                "type": "text",
+                "label": "Description",
+                "value": "Deverá ser possível executar casos de teste no contexto de uma fase de testes ou fora de uma fase de testes",
+                "format": "text"
+            },
+            {
+                "field_id": 558,
+                "type": "text",
+                "label": "Proposed solution",
+                "value": "",
+                "format": "text"
+            }
+        ],
+        "values_by_field": null,
+        "last_modified_date": "2018-04-20T18:54:37+02:00",
+        "status": "New",
+        "title": "Processo de testes",
+        "assignees": []
+    },
+    {
+        "id": 43,
+        "uri": "artifacts/43",
+        "xref": "SRS #43",
+        "tracker": {
+            "id": 17,
+            "uri": "trackers/17",
+            "label": "System Requirements Specification",
+            "color_name": "clockwork-orange",
+            "project": {
+                "id": 102,
+                "uri": "projects/102",
+                "label": "OT.1559"
+            }
+        },
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "OT.1559"
+        },
+        "submitted_by": 107,
+        "submitted_by_user": {
+            "id": 107,
+            "uri": "users/107",
+            "user_url": "/users/stanzani",
+            "real_name": "Vera Stanzani",
+            "display_name": "Vera Stanzani",
+            "username": "stanzani",
+            "ldap_id": "10072",
+            "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+            "is_anonymous": false
+        },
+        "submitted_on": "2018-04-20T18:56:17+02:00",
+        "html_url": "/plugins/tracker/?aid=43",
+        "changesets_uri": "artifacts/43/changesets",
+        "values": [
+            {
+                "field_id": 538,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 43
+            },
+            {
+                "field_id": 539,
+                "type": "sb",
+                "label": "Product",
+                "values": [
+                    {
+                        "id": "445",
+                        "label": "ALM",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    445
+                ]
+            },
+            {
+                "field_id": 540,
+                "type": "sb",
+                "label": "Version",
+                "values": [
+                    {
+                        "id": "386",
+                        "label": "1.0",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    386
+                ]
+            },
+            {
+                "field_id": 541,
+                "type": "sb",
+                "label": "Status",
+                "values": [
+                    {
+                        "id": "392",
+                        "label": "New",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    392
+                ]
+            },
+            {
+                "field_id": 542,
+                "type": "sb",
+                "label": "Type",
+                "values": [
+                    {
+                        "id": "394",
+                        "label": "Specification",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    394
+                ]
+            },
+            {
+                "field_id": 543,
+                "type": "sb",
+                "label": "Nature",
+                "values": [
+                    {
+                        "id": "401",
+                        "label": "Functionnal",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    401
+                ]
+            },
+            {
+                "field_id": 545,
+                "type": "sb",
+                "label": "Priority",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 546,
+                "type": "string",
+                "label": "Summary",
+                "value": "Aprovações e verificações"
+            },
+            {
+                "field_id": 547,
+                "type": "art_link",
+                "label": "Satisfy Requirements",
+                "links": [],
+                "reverse_links": []
+            },
+            {
+                "field_id": 552,
+                "type": "subby",
+                "label": "Author",
+                "value": {
+                    "email": "stanzani@siscog.pt",
+                    "status": "A",
+                    "id": 107,
+                    "uri": "users/107",
+                    "user_url": "/users/stanzani",
+                    "real_name": "Vera Stanzani",
+                    "display_name": "Vera Stanzani",
+                    "username": "stanzani",
+                    "ldap_id": "10072",
+                    "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                    "is_anonymous": false
+                }
+            },
+            {
+                "field_id": 553,
+                "type": "subon",
+                "label": "Creation date",
+                "value": "2018-04-20T18:56:17+02:00"
+            },
+            {
+                "field_id": 554,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2018-04-20T19:02:21+02:00"
+            },
+            {
+                "field_id": 555,
+                "type": "sb",
+                "label": "Assigned to",
+                "values": [
+                    {
+                        "email": null,
+                        "status": null,
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": null,
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                        "is_anonymous": true
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 556,
+                "type": "text",
+                "label": "Source",
+                "value": "",
+                "format": "text"
+            },
+            {
+                "field_id": 561,
+                "type": "file",
+                "label": "Attachments",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 562,
+                "type": "cross",
+                "label": "Cross references",
+                "value": []
+            },
+            {
+                "field_id": 557,
+                "type": "text",
+                "label": "Description",
+                "value": "Deverá ser permitir aprovações e verificações possíveis e não obrigatórias.",
+                "format": "text"
+            },
+            {
+                "field_id": 558,
+                "type": "text",
+                "label": "Proposed solution",
+                "value": "",
+                "format": "text"
+            }
+        ],
+        "values_by_field": null,
+        "last_modified_date": "2018-04-20T19:02:21+02:00",
+        "status": "New",
+        "title": "Aprovações e verificações",
+        "assignees": []
+    },
+    {
+        "id": 44,
+        "uri": "artifacts/44",
+        "xref": "SRS #44",
+        "tracker": {
+            "id": 17,
+            "uri": "trackers/17",
+            "label": "System Requirements Specification",
+            "color_name": "clockwork-orange",
+            "project": {
+                "id": 102,
+                "uri": "projects/102",
+                "label": "OT.1559"
+            }
+        },
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "OT.1559"
+        },
+        "submitted_by": 107,
+        "submitted_by_user": {
+            "id": 107,
+            "uri": "users/107",
+            "user_url": "/users/stanzani",
+            "real_name": "Vera Stanzani",
+            "display_name": "Vera Stanzani",
+            "username": "stanzani",
+            "ldap_id": "10072",
+            "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+            "is_anonymous": false
+        },
+        "submitted_on": "2018-04-20T19:16:20+02:00",
+        "html_url": "/plugins/tracker/?aid=44",
+        "changesets_uri": "artifacts/44/changesets",
+        "values": [
+            {
+                "field_id": 538,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 44
+            },
+            {
+                "field_id": 539,
+                "type": "sb",
+                "label": "Product",
+                "values": [
+                    {
+                        "id": "445",
+                        "label": "ALM",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    445
+                ]
+            },
+            {
+                "field_id": 540,
+                "type": "sb",
+                "label": "Version",
+                "values": [
+                    {
+                        "id": "386",
+                        "label": "1.0",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    386
+                ]
+            },
+            {
+                "field_id": 541,
+                "type": "sb",
+                "label": "Status",
+                "values": [
+                    {
+                        "id": "392",
+                        "label": "New",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    392
+                ]
+            },
+            {
+                "field_id": 542,
+                "type": "sb",
+                "label": "Type",
+                "values": [
+                    {
+                        "id": "394",
+                        "label": "Specification",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    394
+                ]
+            },
+            {
+                "field_id": 543,
+                "type": "sb",
+                "label": "Nature",
+                "values": [
+                    {
+                        "id": "401",
+                        "label": "Functionnal",
+                        "color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    401
+                ]
+            },
+            {
+                "field_id": 545,
+                "type": "sb",
+                "label": "Priority",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 546,
+                "type": "string",
+                "label": "Summary",
+                "value": "Rastreabilidade"
+            },
+            {
+                "field_id": 547,
+                "type": "art_link",
+                "label": "Satisfy Requirements",
+                "links": [],
+                "reverse_links": []
+            },
+            {
+                "field_id": 552,
+                "type": "subby",
+                "label": "Author",
+                "value": {
+                    "email": "stanzani@siscog.pt",
+                    "status": "A",
+                    "id": 107,
+                    "uri": "users/107",
+                    "user_url": "/users/stanzani",
+                    "real_name": "Vera Stanzani",
+                    "display_name": "Vera Stanzani",
+                    "username": "stanzani",
+                    "ldap_id": "10072",
+                    "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                    "is_anonymous": false
+                }
+            },
+            {
+                "field_id": 553,
+                "type": "subon",
+                "label": "Creation date",
+                "value": "2018-04-20T19:16:20+02:00"
+            },
+            {
+                "field_id": 554,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2018-04-20T20:28:00+02:00"
+            },
+            {
+                "field_id": 555,
+                "type": "sb",
+                "label": "Assigned to",
+                "values": [
+                    {
+                        "email": null,
+                        "status": null,
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": null,
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.siscog/themes/common/images/avatar_default.png",
+                        "is_anonymous": true
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 556,
+                "type": "text",
+                "label": "Source",
+                "value": "",
+                "format": "text"
+            },
+            {
+                "field_id": 561,
+                "type": "file",
+                "label": "Attachments",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 562,
+                "type": "cross",
+                "label": "Cross references",
+                "value": []
+            },
+            {
+                "field_id": 563,
+                "label": "Permissions on artifact",
+                "granted_groups": [],
+                "granted_groups_details": []
+            },
+            {
+                "field_id": 557,
+                "type": "text",
+                "label": "Description",
+                "value": "Deverá \"iluminar\" as áreas relacionadas com uma determinada alteração",
+                "format": "text"
+            },
+            {
+                "field_id": 558,
+                "type": "text",
+                "label": "Proposed solution",
+                "value": "",
+                "format": "text"
+            }
+        ],
+        "values_by_field": null,
+        "last_modified_date": "2018-04-20T20:28:00+02:00",
+        "status": "New",
+        "title": "Rastreabilidade",
+        "assignees": []
+    }
+]
