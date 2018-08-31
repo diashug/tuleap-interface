@@ -42,7 +42,7 @@
                 "value": 1
             },
             {
-	    "field_id": 539,
+	             "field_id": 539,
                 "type": "sb",
                 "label": "Product",
                 "values": [
@@ -135,7 +135,7 @@
                 "field_id": 546,
                 "type": "string",
                 "label": "Summary",
-                "value": "Notificações"
+                "value": "Notificaï¿½ï¿½es"
             },
             {
                 "field_id": 547,
@@ -247,7 +247,7 @@
                 "field_id": 557,
                 "type": "text",
                 "label": "Description",
-                "value": "A ferramenta deverá gerar notificações sempre que exista uma alteração de estado num determinado processo e enviá-las para todas as pessoas relevantes para o mesmo.",
+                "value": "A ferramenta deverï¿½ gerar notificaï¿½ï¿½es sempre que exista uma alteraï¿½ï¿½o de estado num determinado processo e enviï¿½-las para todas as pessoas relevantes para o mesmo.",
                 "format": "text"
             },
             {
@@ -261,7 +261,7 @@
         "values_by_field": null,
         "last_modified_date": "2018-04-17T17:39:04+02:00",
         "status": "New",
-        "title": "Notificações",
+        "title": "Notificaï¿½ï¿½es",
         "assignees": []
     },
     {
@@ -485,7 +485,7 @@
                 "field_id": 557,
                 "type": "text",
                 "label": "Description",
-                "value": "A ferramenta deverá permitir a centralização e gestão de requisitos de software. Devendo ser dotado de mecanismos de indexação para agilizar a respectiva pesquisa.",
+                "value": "A ferramenta deverï¿½ permitir a centralizaï¿½ï¿½o e gestï¿½o de requisitos de software. Devendo ser dotado de mecanismos de indexaï¿½ï¿½o para agilizar a respectiva pesquisa.",
                 "format": "text"
             },
             {
@@ -630,7 +630,7 @@
                 "field_id": 546,
                 "type": "string",
                 "label": "Summary",
-                "value": "Gestão documental"
+                "value": "Gestï¿½o documental"
             },
             {
                 "field_id": 547,
@@ -727,7 +727,7 @@
                 "field_id": 557,
                 "type": "text",
                 "label": "Description",
-                "value": "A ferramenta deverá ter capacidade para armazenar todo o tipo de documentação associada ao desenvolvimento de software. Para além disso deverá ter mecanismos de indexação para agilizar a respectiva pesquisa.\r\n\r\nVer doc #13.\r\n",
+                "value": "A ferramenta deverï¿½ ter capacidade para armazenar todo o tipo de documentaï¿½ï¿½o associada ao desenvolvimento de software. Para alï¿½m disso deverï¿½ ter mecanismos de indexaï¿½ï¿½o para agilizar a respectiva pesquisa.\r\n\r\nVer doc #13.\r\n",
                 "format": "text"
             },
             {
@@ -741,7 +741,7 @@
         "values_by_field": null,
         "last_modified_date": "2018-04-17T17:41:50+02:00",
         "status": "New",
-        "title": "Gestão documental",
+        "title": "Gestï¿½o documental",
         "assignees": []
     },
     {
@@ -872,7 +872,7 @@
                 "field_id": 546,
                 "type": "string",
                 "label": "Summary",
-                "value": "Relatórios e estatísticas"
+                "value": "Relatï¿½rios e estatï¿½sticas"
             },
             {
                 "field_id": 547,
@@ -963,7 +963,7 @@
                 "field_id": 557,
                 "type": "text",
                 "label": "Description",
-                "value": "A ferramenta deverá permitir a configuração e visualização de KPIs, bem como a respectiva importação para outras ferramentas externas (p. ex. Microsoft Excel).",
+                "value": "A ferramenta deverï¿½ permitir a configuraï¿½ï¿½o e visualizaï¿½ï¿½o de KPIs, bem como a respectiva importaï¿½ï¿½o para outras ferramentas externas (p. ex. Microsoft Excel).",
                 "format": "text"
             },
             {
@@ -977,7 +977,7 @@
         "values_by_field": null,
         "last_modified_date": "2018-04-10T12:03:26+02:00",
         "status": "New",
-        "title": "Relatórios e estatísticas",
+        "title": "Relatï¿½rios e estatï¿½sticas",
         "assignees": []
     },
     {
@@ -1207,7 +1207,7 @@
                 "field_id": 557,
                 "type": "text",
                 "label": "Description",
-                "value": "A ferramenta deve pemitir comparar quaisquer duas versões de uma entidade. Por exemplo, listar as diferenças entre os requisitos de 2 versões.\r\n",
+                "value": "A ferramenta deve pemitir comparar quaisquer duas versï¿½es de uma entidade. Por exemplo, listar as diferenï¿½as entre os requisitos de 2 versï¿½es.\r\n",
                 "format": "text"
             },
             {
@@ -1445,7 +1445,7 @@
                 "field_id": 557,
                 "type": "text",
                 "label": "Description",
-                "value": "Deverá ser possível executar casos de teste no contexto de uma fase de testes ou fora de uma fase de testes",
+                "value": "Deverï¿½ ser possï¿½vel executar casos de teste no contexto de uma fase de testes ou fora de uma fase de testes",
                 "format": "text"
             },
             {
@@ -1590,7 +1590,7 @@
                 "field_id": 546,
                 "type": "string",
                 "label": "Summary",
-                "value": "Aprovações e verificações"
+                "value": "Aprovaï¿½ï¿½es e verificaï¿½ï¿½es"
             },
             {
                 "field_id": 547,
@@ -1675,7 +1675,7 @@
                 "field_id": 557,
                 "type": "text",
                 "label": "Description",
-                "value": "Deverá ser permitir aprovações e verificações possíveis e não obrigatórias.",
+                "value": "Deverï¿½ ser permitir aprovaï¿½ï¿½es e verificaï¿½ï¿½es possï¿½veis e nï¿½o obrigatï¿½rias.",
                 "format": "text"
             },
             {
@@ -1689,7 +1689,7 @@
         "values_by_field": null,
         "last_modified_date": "2018-04-20T19:02:21+02:00",
         "status": "New",
-        "title": "Aprovações e verificações",
+        "title": "Aprovaï¿½ï¿½es e verificaï¿½ï¿½es",
         "assignees": []
     },
     {
@@ -1911,7 +1911,7 @@
                 "field_id": 557,
                 "type": "text",
                 "label": "Description",
-                "value": "Deverá \"iluminar\" as áreas relacionadas com uma determinada alteração",
+                "value": "Deverï¿½ \"iluminar\" as ï¿½reas relacionadas com uma determinada alteraï¿½ï¿½o",
                 "format": "text"
             },
             {

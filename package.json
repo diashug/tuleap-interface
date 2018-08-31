@@ -16,5 +16,8 @@
     "lodash": "^4.17.10",
     "moment": "^2.22.2",
     "xlsx": "^0.13.4"
+  },
+  "devDependencies": {
+    "hbs": "^4.0.1"
   }
 }

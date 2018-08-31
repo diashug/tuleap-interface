@@ -24,39 +24,105 @@ instance.get(baseUrl + 'trackers/17/artifacts?values=all').then((res) => {
   wb.Props = {
     Title: 'SRS',
     Subject: 'Export file',
-    Author: 'Hugo S. Dias',
+    Author: 'Tuleap',
     CreatedDate: new Date()
   };
 
   wb.SheetNames.push('srs');
 
+  var artifactPreviousLength = 0;
+  var longestArtifactIndex = 0;
+  var idx = 0;
+
+  // Check which is the artifact with more fields and retrive its index
+  artifacts.forEach((artifact) => {
+    if (artifact.values.length > artifactPreviousLength) {
+      longestArtifactIndex = idx;
+      artifactPreviousLength = artifact.values.length;
+    }
+    idx += 1;
+  });
+
+  var headers = [];
+  var fieldsIds = [];
+  artifacts[longestArtifactIndex].values.forEach((field) => {
+    if (field.label !== undefined) {
+      headers.push(field.label);
+      fieldsIds.push(field.field_id);
+    } else {
+      headers.push('NEF'); // NEF = non-existing field
+    }
+
+  });
+
   var wsData = [];
 
+  wsData.push(headers);
+
   artifacts.forEach((data) => {
-    var rowIdx = 1;
-    var newRow = [];
-    data.values.forEach((col) => {
-      var colIdx = 0;
+    var row = [];
+    var field = null;
+    var fields = data.values;
 
-      if (col.value !== undefined) {
-        newRow.push(col.value);
-      } else if (col.values !== undefined) {
-        var labels = [];
+    for (var i = 0; i < fieldsIds.length; i ++) {
 
-        col.values.forEach((obj) => {
-          labels.push(obj.label);
-        });
-        
-        newRow.push(_.join(labels, ','));
+      field = _.filter(fields, o => o.field_id == fieldsIds[i])[0];
+
+      if (field !== undefined) {
+
+        if (field.value !== undefined) {
+          if (Array.isArray(field.value)) {
+            var data = [];
+
+            field.value.forEach((obj) => {
+              if (obj.ref !== undefined) {
+                data.push(obj.ref);
+              } else {
+                data.push('NN');
+              }
+            });
+
+            row.push(_.join(data, ','));
+          } else if (typeof field.value === 'object') {
+            if (field.value.real_name !== undefined) {
+              row.push(field.value.real_name);
+            } else if (field.value.url !== undefined) {
+              row.push(field.value.url)
+            }
+          } else {
+            row.push(field.value);
+          }
+        } else if (field.values !== undefined) {
+          var data = [];
+
+          field.values.forEach((obj) => {
+            if (obj.label !== undefined) {
+              data.push(obj.label);
+            } else if (obj.real_name !== undefined) {
+              data.push(obj.real_name);
+            } else {
+              data.push('N/A');
+            }
+          });
+
+          row.push(_.join(data, ','));
+        } else if (field.links !== undefined) {
+          var links = [];
+
+          field.links.forEach((obj) => {
+            links.push(obj.uri);
+          });
+
+          row.push(_.join(links, ','));
+        } else {
+          row.push('N/A');
+        }
+      } else {
+        row.push('N/A');
       }
+    }
 
-      colIdx ++;
-    });
-
-    console.log(newRow);
-    wsData.push(newRow);
-
-    rowIdx ++;
+    wsData.push(row);
   });
 
   var ws = XLSX.utils.aoa_to_sheet(wsData);
@@ -64,15 +130,7 @@ instance.get(baseUrl + 'trackers/17/artifacts?values=all').then((res) => {
 
   let dt = moment().format('YYYYMMDD-HHmm');
   XLSX.writeFile(wb, `tuleap-artifacts-${dt}.xlsx`);
-  // res.data[0].values.forEach((val) => {
-  //   if (val.value !== undefined) {
-  //     console.log(val.label, '=', val.value);
-  //   } else if (val.values !== undefined) {
-  //     console.log(val.label, '=', val.values);
-  //   } else if (val.links !== undefined) {
-  //     console.log(val.label, '=', val.links)
-  //   }
-  // });
+
 }).catch((err) => {
   console.log(err);
 });
