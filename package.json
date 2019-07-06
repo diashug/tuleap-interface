@@ -12,7 +12,7 @@
   "author": "Hugo S. Dias <hugo.silva.dias@siscog.pt>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "lodash": "^4.17.11",
     "moment": "^2.22.2",
     "xlsx": "^0.13.4"
